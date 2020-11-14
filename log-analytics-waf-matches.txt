@@ -1,0 +1,3 @@
+AzureDiagnostics 
+| where Category == "FrontdoorWebApplicationFirewallLog"
+| order by TimeGenerated
